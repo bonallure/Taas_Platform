@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AV Location</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <style></style>
+</head>
+<body>
+    <h3>AV Location</h3>
+    <br><br>
+    <form id="vin_form">
+        <input type="text" name="vin" placeholder="enter your vin" required>
+        <button onclick="show_av()" name="Submit">Submit</button>
+    </form>
+    <div id='map1' style='width: 800px; height: 600px;'></div>
+    <br><br>
+    <script src="av_location.js"></script>
+</body>
+</html>
